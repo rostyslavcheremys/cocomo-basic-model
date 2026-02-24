@@ -1,0 +1,18 @@
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field__label {
+    font-family: var(--font-family), sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 5px 10px;
+}
+
+.form-field_error {
+    font-family: var(--font-family), sans-serif;
+    font-size: 12px;
+    color: red;
+    margin: 5px 0 0 10px;
+}

@@ -10,7 +10,7 @@
     margin: 0 0 5px 10px;
 }
 
-.form-field_error {
+.form-field__error {
     font-family: var(--font-family), sans-serif;
     font-size: 12px;
     color: red;

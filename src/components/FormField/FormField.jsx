@@ -4,7 +4,7 @@ export const FormField = ({ label, children, errorMessage }) => {
             <label className="form-field__label">{label}</label>
             {children}
             {errorMessage && (
-                <p className="form-field_error">{errorMessage}</p>
+                <p className="form-field__error">{errorMessage}</p>
             )}
         </div>
     );
